@@ -1,0 +1,33 @@
+# 🔄 n8n Dynamic Prompt Generator
+
+This is my first automation project using [n8n](https://n8n.io), built to guide users in creating detailed and accurate prompts for AI tools by asking dynamic, step-by-step questions.
+
+## 🧠 What It Does
+
+- Accepts a user input like “I want to build X”
+- Dynamically asks follow-up questions:
+  - What tools do you want to use?
+  - What kind of input/output do you expect?
+  - For image prompts: What style, object, or use-case?
+- Generates a final custom AI prompt
+
+## 📁 Files
+
+- `dynamic_prompt_generator.json`: The complete exported n8n workflow
+
+## 📌 How to Use
+
+1. Import the JSON into your n8n instance.
+2. Run the workflow.
+3. Interact with the prompt form and get a refined AI-ready prompt!
+
+## 🚀 Built With
+
+- n8n (open-source automation)
+- Logic nodes + conditional questions
+- Webhook + HTML form + Set + Function nodes
+
+---
+
+💡 This is my first step into automation. Feedback and suggestions are welcome!
+
