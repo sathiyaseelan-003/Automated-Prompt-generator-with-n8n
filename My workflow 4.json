@@ -26,7 +26,7 @@
         "modelName": "models/gemini-2.0-flash",
         "options": {}
       },
-      "id": "09821bdc-d417-4a78-aeec-1ffd2ebe676d",
+      "id": "",
       "name": "Google Gemini Chat Model",
       "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
       "position": [
@@ -36,7 +36,7 @@
       "typeVersion": 1,
       "credentials": {
         "googlePalmApi": {
-          "id": "lpR104fsqLo1DGIw",
+          "id": "",
           "name": "Google Gemini(PaLM) Api account"
         }
       }
